@@ -6,60 +6,82 @@
             Google homepage, nothing suspicious here
         </title>
         <link href="/home/scott/the_odin_project/google-homepage/styles.css" rel="stylesheet" href="css/styles.css" type="text/css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
     </head>
     <body>
-     <div id="navigation">
-        <header>
-         <nav>
-            <a class="google-header" href=" ">About </a>
-            <a class="google-header" href=" ">Store</a>
-            <div class="header-space">
-                <a class="google-header" href=" ">Gmail</a>
-  
-                <a class="google-header" href=" ">Images</a>
-                <a class="google-header" href=" ">
-              <!--google apps-->
-                </a>
-                <a class="google-header" href=" ">
-              <!--google account -->
-                </a>
-            </div>
-  
-            </nav>
-        </header>
-  
-        </div>
-        <div id="content">
-        <article>
-        <!--this is where the google logo will go-->
-            <img src="images/googleImage.png" alt="Google homepage">
-         </article>
-        <form>
-            <input type="text" placeholder="Search Here">
-        <!--placement for the searchbar-->
-            <button type="submit">Search</button>
-  
-        <!--Placement of search button and feeling lucky button-->
-            <button type="submit">Feelin' Lucky</button>
-        </form>
-        </div>
-        <footer id="footer">
-        <div id="footer-contents">
-            <a class="google-footer" href=" ">Advertising</a>
-  
-            <a class="google-footer" href=" ">Business</a>
-            <a class="google-footer" href=" ">How Search Works
-            </a>
-            <a class="carbon" href=" ">Carbon nuetral since 2007
-            </a>
-            <a class="google-footer" href=" ">Privacy</a>
-            <a class="google-footer" href=" ">Terms
-            </a>
-            <a class="google-footer" href=" ">Settings
-            </a>
-        </div>
-  
-        </footer>
+        <head>
+           
+          
+          </head>
+          
+          <div id="content">
+            <header>
+              <nav>
+                <div id="navOne">
+                  <a class="linkSpacing" href="">About</a>
+                  <a class="linkSpacing" href="">Store</a>
+                </div>
+                <div id="navTwo">
+                  <a class="linkSpacing" href="">Gmail</a>
+                  <a class="linkSpacing" href="">Images</a>
+                  <div id="appsIconSpacing">
+                    <i class="material-icons" id="appsIcon">apps</i>
+                  </div>
+                  <input type="button" class="signIn" value="Sign in">
+                </div>
+              </nav>
+            </header>
+            <main>
+          
+              <div id="googleLogo">
+                <article>
+                  <img src="https://www.dropbox.com/s/1jq84nkyh7470nk/google_logo.png?raw=1" alt="google image">
+                </article>
+          
+              </div>
+              <div id="formContainer">
+                <article>
+                  <form>
+                    <div id="searchContainer">
+                      <i class="material-icons" id="searchIcon">search</i>
+          
+                      <input type="text" id="searchBar" placeholder="">
+          
+                      <i class="material-icons" id="voiceAssistIcon">keyboard_voice</i>
+          
+                    </div>
+                    <div id="buttonContainer">
+                      <input type="button" class="button" id="searchButton" value="Google Search" href="">
+                      <input type="button" class="button" id="luckyButton" value="I'm Feelin' Lucky" href="">
+                    </div>
+                  </form>
+                </article>
+                <div id="OPP">
+          
+                  <a href=" " class="linkSpacing">
+                    You Down with OPP?
+                  </a>
+                </div>
+              </div>
+          
+            </main>
+            <footer>
+              <div id="footerLeft">
+                <a class="linkSpacing" href="">Advertising</a>
+                <a class="linkSpacing" href="">Business</a>
+                <a class="linkSpacing" href="">How Search Works</a>
+              </div>
+              <div id="footerMiddle">
+                <a class="linkSpacing" href="">Carbon neutral since 2007</a>
+              </div>
+              <div id="footerRight">
+                <a class="linkSpacing" href="">Privacy</a>
+                <a class="linkSpacing" href="">Terms</a>
+                <a class="linkSpacing" href="">Settings</a>
+              </div>
+            </footer>
+          </div>
+    
      </body>
      </html>
