@@ -80,7 +80,7 @@ article {
 }
 
 #searchContainer {
-  border: gray solid;
+  border: hsla( 4, 6%, 64%, 0.4) solid;
   border-width: .5px ;
   width: 40%;
   height: 44px;
@@ -143,6 +143,13 @@ footer{
 .button {
   padding: 5px;
 }
+
+#leafImage {
+
+  height: 10px;
+  width: auto;
+}
+
 #searchButton {
   width: 127px ;
   height:36px;
